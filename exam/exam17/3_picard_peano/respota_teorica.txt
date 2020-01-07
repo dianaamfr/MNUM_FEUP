@@ -1,0 +1,27 @@
+1. Isole as raízes da equação.
+
+a) D = R
+
+b) Pelo Teorema:  
+f(-inf) = e^(-inf) -(-inf) -5=+inf
+f(+inf) = e^(inf)-inf-5 = inf - inf (indeterminacao)
+nada de pode concluir pelo teorema
+
+c)1ª derivada:
+
+f'(x) = e^x-1
+f'(x)=0 <=> x = 0    =>     f'(0) = 1 e f(0) = -4 <0   logo a função tem pelo menos uma raíz  - no intervalo ]-inf,0[
+
+d) Análise do comportamento da função e respetiva derivada => definição de intervalos
+
+Verificamos que a função tem duas raízes nos intervalos [-6,-4],[1.3,3] , nos quais a função é  monótona, pois neles a derivada da função mantém o sinal. 
+
+2.Dividir o domínio em regiões de convergência para cada raíz isolada.
+  Fórmula de Recorrência 1:  (e^x-5)' = e^x < 1 para todo o x <0 logo converge apenas para a 1ª raíz (do intervalo [-6,-4])
+  Fórmula de Recorrência 2: (ln(5+x))' = 1/(x+5) que converge para a 2ª raíz ( do intervalo [1.3,3]) pois para qualquer x nesse intervalo  1/(x+5) <1. Para valores de x no intervalo ao qual pertence a 1ª raíz o valor da derivada é sempre maior ou igual a 1 pelo que não converge
+
+3. Cálculo da raíz no intervalo [1.3,3] usando a fórmula de recorrência 2
+    Comparação com o resultado obtido pelo método de newton
+    Critério de paragem: |x-xant| < 10^-5 (precisao absoluta - diferença entre valores consecutivos de x)
+    Resultado: verifica-se que com método de Newton a convergência é mais rápida -  melhor desempenho (a precisão é atingida com menos iterações). O método de picard peano permite, por outro lado, o cálculo da raíz sem ser necessária a função inical. Verifica-se a convergência dos métodos para o mesmo valor.
+    	
