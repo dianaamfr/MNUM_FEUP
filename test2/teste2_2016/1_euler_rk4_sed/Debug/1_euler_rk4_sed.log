@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\1_euler_rk4_sed\Source.cpp(55,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\1_euler_rk4_sed\Source.cpp(74,17): warning C4018: '<': signed/unsigned mismatch
+  1_euler_rk4_sed.vcxproj -> C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\1_euler_rk4_sed\Debug\1_euler_rk4_sed.exe

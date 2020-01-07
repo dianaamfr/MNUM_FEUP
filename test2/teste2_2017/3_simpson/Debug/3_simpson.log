@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(9,26): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(10,34): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(11,33): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(12,34): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(13,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(14,34): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(15,33): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(16,34): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(17,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Source.cpp(18): warning C4715: 'f1': not all control paths return a value
+  3_simpson.vcxproj -> C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2017\3_simpson\Debug\3_simpson.exe

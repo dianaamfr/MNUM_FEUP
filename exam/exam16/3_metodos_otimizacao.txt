@@ -1,0 +1,8 @@
+3. 
+a. Indique qual o método numérico que utilizaria;
+b. Aponte as vantagens deste método em relação aos métodos alternativos;
+c. Com base na observação do gráfico, quais as dificuldades que prevê para o desempenho do método escolhido, e qual a estratégia de
+ultrapassagem dessas dificuldades.
+
+a) Utilizaria o método de Levenverg Marquardt.
+b) Este método torna-se especialmente vantajoso nas situações difíceis como as de existência de depressões alongadas, combinando os métodos do gradiente e da quádrica

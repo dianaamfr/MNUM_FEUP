@@ -1,0 +1,21 @@
+1. Em vários métodos do cálculo numérico é necessário iterar um valor, tipicamente uma variável independente, ao longo de sucessivos pontos de um domínio
+[a,b], formando uma sucessão
+S = { a, x , x , ..., x ,..., b }
+Discuta as vantagens e desvantagens de usar cada um dos seguintes iteradores (sendo x = a):
+
+1. sendo x e i inteiros,
+     x = x + i
+2. sendo x e h floats
+     x = x + h
+3. sendo x, x e h floats e i= 0, 1, 2, ... inteiro 
+     x = x + h*i
+4. sendo x float e m inteiro
+     x = x + (1/2)^m
+
+1. Assumindo i maior ou igual à unidade, utilizando este iterador inteiro a precisão do resultado será, na maioria dos casos, muito inferior comparativamente a métodos que utilizem iteradores com casas decimaism, pois, no caso de o valor procurado ser da ordem decimal, é impossível alcançá-lo, limitando o resultado a um erro máximo próximo do próprio valor do iterador.
+O número de iterações vai, no entanto, ser inferior em comparação a métodos que utilizem passos com casas decimais e cujo seu valor seja inferior à unidade, pois a sucessão gerada vai ser menor
+2.
+
+3.
+
+4.

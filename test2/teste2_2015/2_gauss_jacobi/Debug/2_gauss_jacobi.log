@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2015\2_gauss_jacobi\Source.cpp(8,19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2015\2_gauss_jacobi\Source.cpp(12,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2015\2_gauss_jacobi\Source.cpp(16,22): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2015\2_gauss_jacobi\Source.cpp(20,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  2_gauss_jacobi.vcxproj -> C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2015\2_gauss_jacobi\Debug\2_gauss_jacobi.exe

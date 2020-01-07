@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_euler", "4_euler.vcxproj", "{1819CC0B-47A5-4189-A16E-E07E74A852ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Debug|x64.ActiveCfg = Debug|x64
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Debug|x64.Build.0 = Debug|x64
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Debug|x86.Build.0 = Debug|Win32
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Release|x64.ActiveCfg = Release|x64
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Release|x64.Build.0 = Release|x64
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Release|x86.ActiveCfg = Release|Win32
+		{1819CC0B-47A5-4189-A16E-E07E74A852ED}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B598B22-0B7C-453D-87C8-92D2AF1B5C4A}
+	EndGlobalSection
+EndGlobal

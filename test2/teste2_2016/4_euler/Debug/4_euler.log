@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\4_euler\main.cpp(9,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\4_euler\main.cpp(22,36): warning C4305: 'argument': truncation from 'double' to 'float'
+  4_euler.vcxproj -> C:\Users\Asus\Desktop\fac\2ano\mnum\0_teste2\fichas_testes\teste2_2016\4_euler\Debug\4_euler.exe
