@@ -22,37 +22,40 @@ double  invHydelta(double x, double y) { return y-4; }
 
 void levenberg_marquardt(double x0, double y0, double lambda, const double error, int n) {
 
-  double xn = x0, yn = y0, xant, yant;
+  double x = x0, y = y0, xn, yn, xant, yant;
   unsigned int counter = 0;
+  bool not_valid = true;
 
   do {
-    xant = xn;
-    yant = yn;
+    if (counter >= n) break;
 
-    xn = xant - (invHxdelta(xant, yant)) + (lambda * dfx(xant, yant));
-    yn = yant - (invHydelta(xant, yant)) + (lambda * dfy(xant, yant));
+    xant = x;
+    yant = y;
+    xn = x - (invHxdelta(x, y)) - (lambda * dfx(x, y));
+    yn = y - (invHydelta(x, y)) - (lambda * dfy(x, y));
 
-    if (f(xn, yn) < f(xant, yant)) {
+    if (f(xn, yn) < f(x, y)) {
       lambda /= 2;
+      x = xn;
+      y = yn;
+      not_valid = false;
     }
-    else if (f(xn, yn) > f(xant, yant)) {
+    else {
       lambda *= 2;
+      not_valid = true;
     }
-
+    cout << setw(2) << counter << "     " << "f( " << x << " , " << y << " ) = " << f(x, y) << endl;
     counter++;
-
-    cout << setw(2) << counter << "     " << "f( " << xn << " , " << yn << " ) = " << f(xn, yn) << endl;
-  } while ((abs(xn - xant) > error || abs(yn - yant) > error) && counter < n);
-
+  } while ((abs(xn - xant) > error) || (abs(yn - yant) > error) || not_valid);
 }
 
 
 int main() {
   double x0, y0, prec=pow(10,-3);
   //Exercise 1 - not done yet
- /* x0=1;
+  /*x0=1;
   y0=1;
-  levenberg_marquardt(x0, y0, 0.01, prec, 22);*/
+  levenberg_marquardt(x0, y0, 0.1, prec, 22);*/
 
   //Exercise 2
   x0=0;

@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam15\5_trapezios_simpson\main.cpp(13,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam15\5_trapezios_simpson\main.cpp(16,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam15\5_trapezios_simpson\main.cpp(24,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam15\5_trapezios_simpson\main.cpp(27,30): warning C4018: '<': signed/unsigned mismatch
+  5_trapezios_simpson.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam15\5_trapezios_simpson\Debug\5_trapezios_simpson.exe
