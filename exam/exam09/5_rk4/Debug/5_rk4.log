@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(15,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(29,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(44,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(46,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(52,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Source.cpp(53,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  5_rk4.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\exam09\5_rk4\Debug\5_rk4.exe
