@@ -1,0 +1,3 @@
+﻿  gradiente.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\gradiente\gradiente.cpp(20,30): warning C4018: '<': signed/unsigned mismatch
+  gradiente.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisoes_metodos\Debug\gradiente.exe
