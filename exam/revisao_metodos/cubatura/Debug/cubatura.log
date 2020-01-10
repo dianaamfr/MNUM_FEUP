@@ -1,0 +1,3 @@
+﻿  cubatura.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\cubatura\cubatura.cpp(19): warning C4715: 'f': not all control paths return a value
+  cubatura.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\cubatura.exe

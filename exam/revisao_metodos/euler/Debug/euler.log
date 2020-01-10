@@ -1,0 +1,3 @@
+﻿  euler.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\euler\euler.cpp(14,30): warning C4018: '<': signed/unsigned mismatch
+  euler.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\euler.exe
