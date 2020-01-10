@@ -33,9 +33,9 @@ void aurea(double x1, double x2, int n) {
 }
 
 int main() {
-  double x1 = 2, x2 = 4;
-  aurea(x1, x2, 2);
+  double x1 = 2, x2=4; 
 
+  aurea(x1,x2,2);
   system("pause");
   return 0;
 }

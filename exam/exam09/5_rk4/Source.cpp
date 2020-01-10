@@ -48,9 +48,9 @@ int main() {
 
   cout << endl;
   cout << "(b)\n";
-  s = rk4_alineab(1.5, 1.0, 0.5, 1);
-  sl = rk4_alineab(1.5, 1.0, 0.5 / 2.0, 1 * 2.0);
-  sll = rk4_alineab(1.5, 1.0, 0.5 / 4.0, 1 * 4.0);
+  s = rk4_alineab(1.0, 1.0, 0.5, 1);
+  sl = rk4_alineab(1.0, 1.0, 0.5 / 2.0, 1 * 2.0);
+  sll = rk4_alineab(1.0, 1.0, 0.5 / 4.0, 1 * 4.0);
   double Qc = (sl - s) / (sll - sl);
   cout << "Qc = " << Qc;
 
