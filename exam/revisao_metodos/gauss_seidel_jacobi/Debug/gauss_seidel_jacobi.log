@@ -1,0 +1,4 @@
+﻿  gauss_seidel_jacobi.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\gauss_seidel_jacobi\gauss_seidel_jacobi.cpp(25,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\gauss_seidel_jacobi\gauss_seidel_jacobi.cpp(43,30): warning C4018: '<': signed/unsigned mismatch
+  gauss_seidel_jacobi.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\gauss_seidel_jacobi.exe

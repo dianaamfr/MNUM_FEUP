@@ -1,0 +1,3 @@
+﻿  picard_peano.cpp
+C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\picard_peano\picard_peano.cpp(13,30): warning C4018: '<': signed/unsigned mismatch
+  picard_peano.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\picard_peano.exe
