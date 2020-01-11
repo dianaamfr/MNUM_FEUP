@@ -1,0 +1,8 @@
+1 e 2 ) Em primeiro lugar calculou-se estabilidade interna para uma e outra solução, a partir da qual se conclui que a norma do resíduo é bastante inferior para a solução obtida através da utilização da pivotagem parcial o que leva a considerar esta alternativa preferível à que não utiliza a pivotagem.
+
+Tendo ainda em conta o objetivo da própria técnica de minimização de erros utilizada, que permite, através de uma reordenação das equações do sistema matricial e da utilização do coeficiente de maior valor absoluto na eliminação de cada coluna ao invés de utilizar o primeiro coeficiente não nulo, pode facilmente concluir-se que se evita gerar multiplicadores demasiado elevados que levariam posteriormente a uma amplificação dos erros e perda de algarismos signifcativos. Um exemplo é logo o primeiro elemento da primeira linha, um valor muito próximo de zero que, usando a pivotagem parcial, nunca chega a ser utilizado como coeficiente permitindo evitar os problemas e efeitos descritos que surgem não utilizando a técnica.
+
+Assim, a diferença dos resultados é essencialmente consequência da utilização da pivotagem parcial, mas também pode resultar de erros de arredondamento e truncatura, entre outros erros de cálculo.
+
+3 ) A solução de um sistema de equações lineares é afetada também pelos erros dos coeficientes das incógnitas e dos termos independentes(estudo estabilidade externa), já que, sendo um sistema mal condicionado, isto é, com pequenas variações dos coeficientes, os erros nas soluções podem ser desproporcionalmente elevados.
+Isto deriva da dependência linear face à inevitabilidade dos arredondamentos.
