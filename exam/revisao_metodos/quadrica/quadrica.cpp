@@ -16,12 +16,12 @@ double fy(double x, double y) {
 }
 
 void quadrica(double x0, double y0, int n) {
-  double x = x0, y = y0;
+  double x = x0, y = y0, xant;
 
   for (unsigned int i = 0; i < n; i++) {
-
+    xant = x;
     x = x - fx(x, y);
-    y = y - fy(x, y);
+    y = y - fy(xant, y);
 
     cout << "iteracao " << i << "     f( " << x << ", " << y << " ) = " << f(x, y) << endl;
   }
