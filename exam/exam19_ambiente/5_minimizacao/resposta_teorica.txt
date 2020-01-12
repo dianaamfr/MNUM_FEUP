@@ -1,0 +1,11 @@
+Para minimizar uma função de uma só variável, como é o caso, pode-se utilizar os seguintes métodos de pesquisa unidimensional, pressupondo ambos os métodos que se conhece dois pontos(x1 e x2) entre os quais se encontra o mínimo que se procura da função:
+
+- método da Secção Áurea: Utilizando a regra áurea este método, partindo do tal intervalo que contém o mínimo, calcula novos pontos intermédios (x3 e x4) dados pelas expressões 
+ x3 - x1 = A (x2 - x1)  e  x4 - x1 =  B(x2-x1), o que pressupõe o uso do valor B = ((5)^(1/2)) - 1 /2 - "golden ratio"; fundamental para a eficiência do algoritmo.
+Partindo destes 4 pontos testa-se em qual dos subintervalos, [x1,x4] ou [x3,x2], está contido o mínimo através da avaliação do sinal da função nesses intervalos (se muda ou não de sinal, isto é, se está ou não a decrescer e a aproximar-se do mínimo). Segue-se para a próxima iteração substituindo o extremo que não está contido no intervalo que contém o mínimo pelo novo extremo, x1 = x3 se f(x3)<f(x4) ou, caso contrário, x2 = x4.
+
+- método dos Terços : tendo este a desvantagem de exigir por vezes demasiados cálculos da função f(x), parte de dois valores iniciais e calcula em cada iteração dois novos pontos(x3 e x4) dentro do intervalo. Assim é possível testar se a função cresce ou decresce em cada um dos subintervalos [x1,x4] e [x3,x2], pelo sinal da função nos extremos, descartando o intervalo que não contém o mínimo. Outra desvantagem é que o algoritmo não aproveita os valores das iterações anteriores para os cálculos da nova iteração.
+
+Tendo em conta as desvantagens do método dos Terços utilizei para resolver este problema o método da Secção Áurea, partindo do intervalo [1,1], que escolhi tendo por base a representação gráfica da função. Como critério de paragem utilizei precisão absoluta, mais especificamente |x2-x1|<=10^(-3). No final escolhi dos pontos que contituem o intervalo o que apresenta menor valor de f(x) - mais próximo do mínimo.
+
+Percebe-se facilmente, pela avaliação do gráfico da função, que o mínimo é no ponto (x,y) = (0,0) o que é confirmado pelo facto de, o algoritmo desenvolvido convergir para este valor, apresentando, claro, alguma imprecisão derivada da precisão usada.
