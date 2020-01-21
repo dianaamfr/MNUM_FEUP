@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\2019_test2\4_rk4\Source.cpp(13,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\2019_test2\4_rk4\Source.cpp(15,30): warning C4018: '<': signed/unsigned mismatch
-  4_rk4.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\2019_test2\4_rk4\Debug\4_rk4.exe

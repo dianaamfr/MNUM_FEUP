@@ -1,4 +1,0 @@
-﻿  sistemas_euler_rk4.cpp
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\sistemas_euler_rk4\sistemas_euler_rk4.cpp(21,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\sistemas_euler_rk4\sistemas_euler_rk4.cpp(36,30): warning C4018: '<': signed/unsigned mismatch
-  sistemas_euler_rk4.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\sistemas_euler_rk4.exe

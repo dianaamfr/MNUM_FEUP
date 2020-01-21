@@ -1,6 +1,0 @@
-﻿  rk4.cpp
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\rk4\rk4.cpp(15,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\rk4\rk4.cpp(34,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\rk4\rk4.cpp(35,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\rk4\rk4.cpp(36,40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  rk4.vcxproj -> C:\Users\Asus\Documents\GitHub\MNUM_FEUP\exam\revisao_metodos\levenberg_marquardt\Debug\rk4.exe
